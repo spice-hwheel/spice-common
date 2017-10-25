@@ -1006,6 +1006,8 @@ enum8 mouse_button {
     RIGHT,
     UP,
     DOWN,
+    WHEEL_LEFT,
+    WHEEL_RIGHT
 };
 
 flags16 mouse_button_mask {
